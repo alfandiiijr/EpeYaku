@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+.navbar .nav-link:hover {
+  color: #cfd8dc !important; /* abu muda */
+}
+
+.navbar .navbar-brand span {
+  font-size: 1.25rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
